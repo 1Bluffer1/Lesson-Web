@@ -1,0 +1,29 @@
+body {
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 2.08;    /* 25/12 */
+    color: rgba(73, 80, 87, 0.50);
+}
+
+.title-main {
+    color: #F8F9FA;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.artist {
+    line-height: 1.66;
+    color: #E5E5E5;
+    font-weight: 300;
+}
+
+.title {
+    color: #212529;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.6;
+}
