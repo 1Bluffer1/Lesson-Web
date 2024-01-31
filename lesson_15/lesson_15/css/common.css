@@ -1,0 +1,31 @@
+.title__link:hover {
+    color: blue;
+}
+
+.title__link {
+    transition: all 0.5s;
+}
+
+.link img {
+    transition: transform 0.8s;
+}
+
+.link img:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    color: #333333;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.info {
+    color: #9C9C9C;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.6;
+}
