@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson_25-26</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            
+        </header>
+        <main class="page">
+            <div class="page__container">
+                <div class="page__order order">
+                    <form class="order__items item" method="POST" enctype="multipart/form-data" action="#">
+                        <h2 class="order__title ">
+                            Information about you
+                        </h2>
+                        <div class="order__details">
+                            <input type="text" class="details__input" required name="first-name" placeholder="First name*">
+                            <input type="text" class="details__input" required name="last-name" placeholder="Last name*">
+                        </div>
+                        <div class="order__details">
+                            <input type="text" class="details__input" name="address-1" placeholder="Address*">
+                            <input type="text" class="details__input" name="address-2" placeholder="Address line 2*">
+                        </div>
+                        <div class="order__details">
+                            <select name="list-country" id="" class="order__country" required placeholder="Country*">
+                                <option value="1">Country</option>
+                                <option value="2">USA</option>
+                                <option value="3">Great Britian</option>
+                                <option value="4">Germany</option>
+                                <option value="5">Belgium</option>
+                                <option value="6">France</option>
+                                <option value="7">Ukraine</option>
+                            </select>
+                            <input type="text" class="details__input" name="city" required placeholder="City/Town*">
+                        </div>
+                        <div class="order__details">
+                            <input type="text" class="details__input" name="postcode-1" placeholder="Postcode / ZIP*" maxlength="8">
+                            <input type="tel" class="details__input" name="phone-1" required placeholder="Phone*">
+                        </div>
+                        <div class="order__details">
+                            <input type="text" class="details__input" name="postcode-2" placeholder="Postcode / ZIP*" maxlength="8">
+                            <input type="tel" class="details__input" name="phone-2" placeholder="Phone*">
+                        </div>
+                        <div class="order__details">
+                            <textarea name="message" id="area" cols="30" rows="10" placeholder="Additional information"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            
+        </footer >
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
